@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HomeController {
 	//Mais modificações
 	//Mais modificações no original
+	//Mais modificações no clone da pratica
+
 	@RequestMapping("/")
 	public @ResponseBody String greeting() {
 		return "Hello, World";
