@@ -15,10 +15,13 @@ public class HomeController {
 		return "Hello, World";
 	}
 	
-	
+	@RequestMapping("/Gustavo")
+	public @ResponseBody String greeting2() {
+		return "Hello, Gustavo";
+	}
 	
 	@RequestMapping("/hotfix")
 	public @ResponseBody String greeting3() {
-		return "Hello, hotfix COM MAIS ERROOO";
+		return "Hello, hotfix";
 	}
 }
