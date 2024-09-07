@@ -16,9 +16,8 @@ public class HomeController {
 	}
 	
 	@RequestMapping("/Gustavo")
-	pub
-ic @ResponseBody String greeting2() {
-		
+	public @ResponseBody String greeting2() {
+		return "Hello, Gustavo";
 	}
 	
 	@RequestMapping("/hotfix")
